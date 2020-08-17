@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	font-family: 'Prompt', sans-serif;
+	max-width: 900px;
+	margin: auto;
+	border: 1px solid grey;
+}
+
+h1 {
+  	margin-bottom: 0;
+	font-size: 35px;
+	padding: 0 50px 0 50px;	
+}
+
+h2 {	
+  	font-size: 14px;
+	color: #00838F;
+	text-align: center;
+	background-color: #263238;
+	padding: 12px;
+	margin: 0;		
+}
+
+h3 {	
+	padding: 0 50px 80px 50px;
+	margin-top: 5px;
+}
+
+h4 {	
+	padding-bottom: 10px;
+	border-bottom: solid 3px #00838F
+}
+
+h5 {
+	font-size: 14px;
+	margin: 0
+}
+
+p {
+    font-size: 14px;    
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+}
+
+/* Header */
+
+header {
+	display: flex;
+}
+
+img {
+    border-radius: 100px;
+	width: 50%;
+	margin-top: 40px;	
+}
+
+.photo {
+	background-color: #00838F;
+	text-align: center;
+	width: 30%;	
+}
+
+.surligntitre {
+	border-bottom: #00838F 3px solid;
+}
+
+.namecolor {
+	color: #00838F;
+}
+
+
+#block_page {	
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+/* Aside */
+
+aside {
+	background-color: #00838F;	
+	width: 30%;
+}
+
+.left {
+	padding: 0 40px 0 40px;
+}
+
+
+/* Main */
+
+main {	
+	width: 70%;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+.fa-hiking {
+	border-radius: 100px;
+	border: 2px solid black;
+	padding: 20px 25px;
+	font-size: 30px;
+}
+
+.fa-rocket, .fa-blender {
+	border-radius: 100px;
+	border: 2px solid black;
+	font-size: 30px;	
+	padding: 20px;
+}
+
+.fa-graduation-cap, .fa-suitcase, .fa-pencil-alt {
+	color: #00838F;
+	margin-right: 12px;
+}
+
+.dot {
+	color: #00838F;
+	margin-right: 20px
+}
+
+.time {
+	font-size: 14px;
+	min-width: 130px;
+	margin-right: 20px;
+}
+
+.infosparcours {	
+	margin: 0 50px 0 50px;
+	text-align: left;
+}
+
+.parcoursection {
+	display: flex;
+	text-align: left;	
+}
+
+/* Footer */
+
+footer {
+	background-color: #00838F;
+	text-align: center;
+	width: 30%;
+}
+
+.loisirs {	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 15px;
+}
+
+
+
+
+@media all and (max-width: 800px) {
+
+	header {
+		flex-direction: column;		
+	}
+
+	.photo {
+		width: 100%;
+		margin: auto;
+	}
+
+	img {
+		width: auto;
+		margin-bottom: 40px;
+		border-radius: 100%
+		
+	}
+	
+	#block_page {
+		flex-direction: column-reverse;
+		max-width: 800px;
+	}
+	
+	aside {
+		width: auto;
+		margin: auto;
+	}
+
+	main {
+		width: auto;
+	}
+	
+	.parcours {
+		width: 100%;
+		margin: auto;
+	}
+
+	.parcoursection {
+		flex-direction: column;
+		margin: auto;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.loisirs {	
+		width: 100%;
+		justify-content: space-around;
+		padding: 15px;
+	}
+}
