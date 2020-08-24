@@ -103,6 +103,10 @@ main {
 	width: 70%;
 }
 
+.photo2 {
+	display: none;
+}
+
 .surligntitre {
 	border-bottom: #00838F 3px solid;
 }
@@ -164,8 +168,14 @@ main {
 	}
 
 	.photo {
+		display: none;
+	}
+
+	.photo2 {
+		background-color: #00838F;
+		text-align: center;
 		width: 100%;
-		margin: auto;
+		display: revert;	
 	}
 
 	img {
